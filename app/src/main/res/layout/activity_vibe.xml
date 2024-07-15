@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top_navigationbar"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/girlboss"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:elevation="5dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibe Check!"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girl, you ate and left no crumbs"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="#353434"
+            android:layout_gravity="center"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your vibe's a"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingBottom="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Girl Boss'"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#910A7A"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You know who else is a girl boss?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2B0404"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Celebrity 1 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/celebrity1"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/image_background"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kiara"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <!-- Celebrity 2 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/celebrity2"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/image_background"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Priyanka"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <!-- Celebrity 3 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="195dp"
+                        android:src="@drawable/celebrity3"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/image_background"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maitreyi"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <!-- Celebrity 4 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/celebrity4"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:elevation="8dp"
+                        android:background="@drawable/image_background"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sara"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <!-- Add more celebrities if needed -->
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your favourite brand throughout the month was"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:paddingBottom="1dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'H&amp;M'"
+            android:textColor="#6A0D0D"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Share"
+            android:textAlignment="center"
+            android:textColor="#F0D7F6"
+            android:backgroundTint="#5C0E58"
+            android:textSize="25sp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See ya next month!"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="#959191"
+            android:layout_gravity="center"
+            android:paddingTop="24dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

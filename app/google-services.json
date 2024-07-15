@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828210121176",
+    "project_id": "fashion-match-items",
+    "storage_bucket": "fashion-match-items.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828210121176:android:2208ad110c97dbcac6caad",
+        "android_client_info": {
+          "package_name": "com.example.fashionmatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQGhkRSrin_UqflSwXQ2r_kc9-sGTjYTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
