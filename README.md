@@ -13,7 +13,7 @@ Introducing the "Fashion Match" feature, inspired by the intuitive mechanics of 
 ## Key Features
 - Swipe Interface: Users can swipe right to like an item or left to pass, making the browsing experience engaging and fun, mimicking the familiar dynamics of dating apps.
 - Seamless Shopping Integration: Swiping up adds items directly to the shopping cart, facilitating a quick and efficient transition from browsing to purchasing, enhancing the overall user experience.
-- Personalized Recommendations: Utilizing algorithms to analyze user preferences based on their swiping behavior, the platform provides increasingly personalized and accurate recommendations over time.
+- Personalized Recommendations: Based on user's swiping behavior, the platform provides increasingly personalized and accurate recommendations over time.
 - Customizable Filters: Users can filter by color, style, and type, helping them discover fashion items closely aligned with their individual tastes and needs.
 - Monthly Vibe Check: Users receive a "Vibe Check" at the end of each month, analyzing their swiping and purchase history to determine their fashion vibe.
 
@@ -21,7 +21,6 @@ Introducing the "Fashion Match" feature, inspired by the intuitive mechanics of 
 - Programming Language: Kotlin
 - Backend: Firebase
 - Development Environment: Android Studio
-- Machine Learning Algorithm: Matrix Factorization
 
 ## Project Structure
 The Kotlin files for the project can be found in the following directory:
