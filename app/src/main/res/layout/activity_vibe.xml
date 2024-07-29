@@ -12,6 +12,7 @@
         android:paddingBottom="24dp">
 
         <ImageView
+            android:id="@+id/vibeimg"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:src="@drawable/girlboss"
@@ -33,6 +34,7 @@
 
 
         <TextView
+            android:id="@+id/vibeline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Girl, you ate and left no crumbs"
@@ -52,6 +54,7 @@
             android:paddingBottom="1dp"/>
 
         <TextView
+            android:id="@+id/vibetype"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="'Girl Boss'"
@@ -62,6 +65,7 @@
             android:paddingBottom="16dp"/>
 
         <TextView
+            android:id="@+id/vibeq"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="You know who else is a girl boss?"
@@ -91,6 +95,7 @@
                     android:layout_gravity="center">
 
                     <ImageView
+                        android:id="@+id/vibecelebrityimg1"
                         android:layout_width="120dp"
                         android:layout_height="200dp"
                         android:src="@drawable/celebrity1"
@@ -101,6 +106,7 @@
                         android:background="@drawable/image_background"/>
 
                     <TextView
+                        android:id="@+id/vibecelebritytext1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Kiara"
@@ -119,6 +125,7 @@
                     android:layout_gravity="center">
 
                     <ImageView
+                        android:id="@+id/vibecelebrityimg2"
                         android:layout_width="120dp"
                         android:layout_height="200dp"
                         android:src="@drawable/celebrity2"
@@ -129,6 +136,7 @@
                         android:background="@drawable/image_background"/>
 
                     <TextView
+                        android:id="@+id/vibecelebritytext2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Priyanka"
@@ -147,6 +155,7 @@
                     android:layout_gravity="center">
 
                     <ImageView
+                        android:id="@+id/vibecelebrityimg3"
                         android:layout_width="120dp"
                         android:layout_height="195dp"
                         android:src="@drawable/celebrity3"
@@ -157,6 +166,7 @@
                         android:background="@drawable/image_background"/>
 
                     <TextView
+                        android:id="@+id/vibecelebritytext3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Maitreyi"
@@ -175,6 +185,7 @@
                     android:layout_gravity="center">
 
                     <ImageView
+                        android:id="@+id/vibecelebrityimg4"
                         android:layout_width="120dp"
                         android:layout_height="200dp"
                         android:src="@drawable/celebrity4"
@@ -185,6 +196,7 @@
                         android:background="@drawable/image_background"/>
 
                     <TextView
+                        android:id="@+id/vibecelebritytext4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sara"
@@ -211,6 +223,7 @@
             android:paddingBottom="1dp"/>
 
         <TextView
+            android:id="@+id/vibebrand"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="'H&amp;M'"
